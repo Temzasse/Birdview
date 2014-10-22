@@ -1,0 +1,140 @@
+
+body{
+	font-family: 'Ubuntu', sans-serif !important;
+}
+header{
+	padding-top: 15px;
+	height: 300px;
+	background: url("../images/poster_sport.jpg");
+	background-size: cover;
+}
+#name-and-slogan{
+	text-align: center;
+	padding: 30px;
+}
+#name-and-slogan h1{
+	font-size: 72px;
+	font-weight: 700;
+	margin: 0;
+}
+#name-and-slogan h2{
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 700;
+	margin: 0;
+}
+header #logo {
+	padding: 25px;
+	width: 250px;
+	display: block;
+	margin: 0 auto;
+}
+nav{
+	text-align: center;
+	padding: 15px;
+	border-bottom: 2px solid #eee;
+	width: 100%;
+	background: rgba(255,255,255, 0.8);
+	z-index: 99;
+	height: 80px;
+	-webkit-transition: top 0.3s ease-in-out;
+    		transition: top 0.3s ease-in-out;
+}
+nav ul li{
+	padding: 10px;
+	display: inline;
+}
+.nav-up{
+	top: -80px !important;
+}
+
+.separator{
+	border-bottom: 2px solid #eee;
+	clear: both;
+	width: 90%;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.content-section{
+	min-height: 500px !important;
+}
+.content-section h1{
+	text-align: center;
+}
+
+
+
+
+
+/*__________________________*/
+/* Birdview esittely */
+#demo-video{
+	display: block;
+	margin:0 auto;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+/*__________________________*/
+
+
+
+
+
+/*__________________________*/
+/* Kopterit ja sensorit */
+#copters-and-sensors img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#tab-wrapper a{
+	font-size: 18px;
+	font-weight: 700;
+	color: #888;
+}
+#tab-wrapper li.active a{
+	color: #333;
+}
+/*__________________________*/
+
+
+
+
+
+/*__________________________*/
+/* Ryhmän tiedot */
+#group-info{
+	margin-bottom: 100px;
+}
+.member{
+	margin-top: 100px;
+}
+.member img{
+	display: block;
+	margin:0 auto;
+	width: 200px;
+	max-width: 80%;
+}
+.member h2{
+	font-size: 24px;
+	font-weight: 700;
+	text-align: center;
+}
+.member p{
+	font-size: 16px;
+	font-style: italic;
+	width: 70%;
+	margin: 0 auto;
+}
+.member p:before{
+	content: '"';
+	font-size: 24px;
+}
+.member p:after{
+	content: '"';
+	font-size: 24px;
+}
+/*__________________________*/

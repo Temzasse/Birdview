@@ -1,8 +1,10 @@
 <!DOCTYPE html> 
  
  			<footer>
+
  			</footer>
-		</div><!-- page-wrapper-->
+		</div><!-- wrapper-->
+
 	</body>
 
 </html>
