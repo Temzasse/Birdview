@@ -113,7 +113,7 @@
 			<div class="member">
 				<img src="images/teemu_taskula.png">
 				<h2>Teemu Taskula</h2>
-				<p>blaa blaa blaa blaa blaa</p>
+				<p>Olen kolmannen vuoden tietotekniikan opiskelija ja opiskelen sivuaineena informaatioverkostoja. Urheilu on minulle erittäin tärkeää, varsinkin salibandy, jota harrasta Otaniemen Flob joukkueessa. Urheilun lisäksi tykkään ottaa sekä valokuvia että videota, joista usein muokkailen jotain "coolia" koneeni editointiohjelmilla.</p>
 			</div>
 
 			<div class="member">
