@@ -15,6 +15,7 @@
 			<li><a class="btn btn-default btn-lg" href="#birdview">Birdview</a></li>
 			<li><a class="btn btn-default btn-lg" href="#sportfilming">Urheilukuvaus</a></li>
 			<li><a class="btn btn-default btn-lg" href="#copters-and-sensors">Lennokit ja sensorit</a></li>
+			<li><a class="btn btn-default btn-lg" href="#service-and-prices">Sopimusmuodot ja Hinnasto</a></li>
 			<li><a class="btn btn-default btn-lg" href="#group-info">Tietoa meistä</a></li>
 		</ul>
 	</nav>
@@ -40,6 +41,7 @@
 
 		<div id="sportfilming" class="col-xs-12 col-sm-8 col-sm-offset-2 content-section" style="margin-top:70px;">
 			<h1>Urheilukuvaus koptereilla</h1>
+			<br>
 			<p>Tähän jotain selitystä ja kuvia yms...</p>
 			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
 		</div>
@@ -50,6 +52,7 @@
 
 		<div id="copters-and-sensors" class="col-xs-12 col-sm-8 col-sm-offset-2 content-section" style="margin-top:70px;">
 			<h1>Lennokit ja sensorit</h1>
+			<br>
 			<p>Kerrotaan näistä jotain ja laitetaan kuvia...</p>
 			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
 			<img src="images/quadcopter.png">
@@ -66,14 +69,34 @@
 
 				  <div class="tab-pane active" id="kopteri">
 				  	<br>
-				  	<strong><p>Kopterin yleinen toiminta:</p></strong>
+				  	<p>Kopterin yleinen toiminta:</p>
+				  	<strong><p>Kantokyky</p></strong>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<br>
+				  	<strong><p>Nopeus</p></strong>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<br>
+				  	<strong><p>Akunkesto</p></strong>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<br>
+				  	<strong><p>Yms muuta</p></strong>
 				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
 				  </div>
 
 				  <div class="tab-pane" id="kamerat">
 				  	<br>
-				  	<strong><p>Kopteriin kiinnitettävät kamerat</p></strong>
+				  	<img src="images/gopro.jpg">
+				  	<strong><h3>GoPro</h3></strong>
+				  	<p>Kerrotaan kuinka GoPro sopii monenlaisiin tilanteisiin: se on veden- ja iskunkestävä. yms....</p>
 				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	<br>
+				   	<img src="images/jarkkari.png">
+				   	<strong><h3>Järjestelmäkamerat</h3></strong>
+				   	<p>Kerrotaan zoomauksesta ja kameran kantokyvystä yms...</p>
+				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<br>
+				  	<strong><h3>Kuvanvakain</h3></strong>
+				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
 				  </div>
 
 				  <div class="tab-pane" id="tuulimittari">
@@ -92,6 +115,24 @@
 		</div>
 		<div class="separator"></div>
 		
+
+
+
+		<div id="service-and-prices" class="col-xs-12 col-sm-8 col-sm-offset-2 content-section" style="margin-top:70px;">
+			<h1>Sopimusmuodot ja hinnasto</h1>
+			<br>
+			<p>Minkälaisia sopimusmuotoja meillä on... keikka vs pitkäaikainen sopimus</p>
+
+			<h3>Keikkaluontainen kuvaus</h3>
+			<p>Esim yksittäisten urheilutapahtumien kuvaaminen tai mainosvideon kuvaaminen yms.</p>
+			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
+			<br>
+			<h3>Sopimusluontainen kuvaus</h3>
+			<p>Esim valmennuksen pitkäaikainen kehityssuunnitelma -> kuvaamisen yhdistäminen valmentamiseen.</p>
+			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
+
+		</div>
+		<div class="separator"></div>
 		
 
 

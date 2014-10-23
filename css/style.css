@@ -60,6 +60,7 @@ nav ul li{
 	min-height: 500px !important;
 }
 .content-section h1{
+	margin-bottom: 30px;
 	text-align: center;
 }
 
@@ -95,8 +96,16 @@ nav ul li{
 	font-weight: 700;
 	color: #888;
 }
+#tab-wrapper h3{
+	font-size: 16px;
+	font-weight: 700;
+	text-align: center;
+}
 #tab-wrapper li.active a{
 	color: #333;
+}
+#kamerat img{
+	width: 150px;
 }
 /*__________________________*/
 
@@ -136,5 +145,17 @@ nav ul li{
 .member p:after{
 	content: '"';
 	font-size: 24px;
+}
+/*__________________________*/
+
+
+
+/*__________________________*/
+/* Footer */
+#acknowledgements{
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+	font-style: italic;
 }
 /*__________________________*/
