@@ -30,6 +30,7 @@
 			</div>
 			
 			<h1>Birdview tuo ilmakuvaamisen urheilun maailmaan!</h1>
+			<strong><h3>TÄMÄN VIDEON TILALLE TULEE VIDEO, JOSSA ESITELLÄÄN BIRDVIEW:N TARJOAMA PALVELU!</h3></strong>
 			<p>Birdview on urheilumaailman ilmakuvauksen ammattilainen, tarjoten kattavimman ja ammattitaitoisimman kuvauspalvelun.</p>
 			<p>tähän jotain yleistä lisää!!</p>
 			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
@@ -55,13 +56,12 @@
 			<br>
 			<p>Kerrotaan näistä jotain ja laitetaan kuvia...</p>
 			<p>Fusce ut ultrices est. Ut et lobortis enim. Pellentesque maximus sem quis auctor convallis. Etiam sed lacus ut libero tempor consectetur. Vivamus lacinia tortor sit amet tortor iaculis vestibulum. Etiam efficitur dui in diam efficitur, placerat imperdiet sapien rutrum. Praesent pulvinar, leo non porta tempor, ligula sem luctus turpis, et lacinia lacus nisi a neque. Ut facilisis urna euismod viverra consectetur. Nullam nec mollis felis. Nunc enim enim, volutpat ac nisi at, pellentesque tempus ligula. Aliquam congue ligula sit amet metus hendrerit, sit amet cursus leo auctor.</p>
-			<img src="images/quadcopter.png">
+			<img id="copter-img" src="images/quadcopter.png">
 			<div id="tab-wrapper">
 				<ul class="nav nav-tabs" role="tablist">
 				  <li class="active"><a href="#kopteri" role="tab" data-toggle="tab">Kopterin toiminta</a></li>
 				  <li><a href="#kamerat" role="tab" data-toggle="tab">Kamerat</a></li>
-				  <li><a href="#tuulimittari" role="tab" data-toggle="tab">Tuulimittari</a></li>
-				  <li><a href="#lampokamera" role="tab" data-toggle="tab">Lämpökamera</a></li>
+				  <li><a href="#sensorit" role="tab" data-toggle="tab">Sensorit</a></li>
 				</ul>
 
 				<!-- Tab panes -->
@@ -69,46 +69,80 @@
 
 				  <div class="tab-pane active" id="kopteri">
 				  	<br>
-				  	<p>Kopterin yleinen toiminta:</p>
-				  	<strong><p>Kantokyky</p></strong>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  	<br>
-				  	<strong><p>Nopeus</p></strong>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  	<br>
-				  	<strong><p>Akunkesto</p></strong>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  	<br>
-				  	<strong><p>Yms muuta</p></strong>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<div class="copter-info">
+				  		<h3>Kantokyky</h3>
+				  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				  	<div class="copter-info">
+				  		<h3>Nopeus</h3>
+				  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				  	<div class="copter-info">
+				  		<h3>Akunkesto</h3>
+				  		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
 				  </div>
 
 				  <div class="tab-pane" id="kamerat">
 				  	<br>
-				  	<img src="images/gopro.jpg">
-				  	<strong><h3>GoPro</h3></strong>
-				  	<p>Kerrotaan kuinka GoPro sopii monenlaisiin tilanteisiin: se on veden- ja iskunkestävä. yms....</p>
-				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	<div class="camera">
+				  		<img src="images/gopro.jpg">
+				  		<h3>GoPro</h3>
+				  		<p>Kerrotaan kuinka GoPro sopii monenlaisiin tilanteisiin: se on veden- ja iskunkestävä. yms....</p>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				   	<div class="camera">
+				   		<img src="images/jarkkari.png">
+				   		<h3>Järjestelmäkamerat</h3>
+				   		<p>Kerrotaan zoomauksesta ja kameran kantokyvystä yms...</p>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	</div>
+				  	<div class="camera">
+				  		<img src="images/prokamera.jpg">
+				   		<h3>Prokamera</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	</div>
+				  	<div class="camera">
+				  		<img src="images/kuvanvakain.png">
+				   		<h3>Kuvanvakain</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	</div>
+				  </div>
+
+				  <div class="tab-pane" id="sensorit">
+					<br>
+				  	<strong><p>Kopteriin kiinnitettävät sensorit</p></strong>
+				   	<p>Kopteriin on mahdollista kiinnittää kameroiden lisäksi monenlaisia sensoreita. Sensorit mahdollistavat monipuolisen datan keräämisen, mitä voidaan hyödyntää urheilusuoritusten mittaamisessa.</p>
 				   	<br>
-				   	<img src="images/jarkkari.png">
-				   	<strong><h3>Järjestelmäkamerat</h3></strong>
-				   	<p>Kerrotaan zoomauksesta ja kameran kantokyvystä yms...</p>
-				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  	<br>
-				  	<strong><h3>Kuvanvakain</h3></strong>
-				  	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  </div>
-
-				  <div class="tab-pane" id="tuulimittari">
-					<br>
-				  	<strong><p>Selkoa säästä</p></strong>
-				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
-				  </div>
-
-				  <div class="tab-pane" id="lampokamera">
-					<br>
-				  	<strong><p>Lämpömittari antaa jotain dataa?</p></strong>
-				   	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	<div class="sensor">
+				   		<img src="images/etäisyysmittari.jpg">
+				   		<h3>Etäisyysmittari</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				   	
+				   	<div class="sensor">
+				   		<img src="images/gps.jpg">
+				   		<h3>GPS</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+					</div>
+					
+					<div class="sensor">
+						<img src="images/hyperspektrikamera.png">
+				   		<h3>Hyperspektrikamera</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				   	
+				   	<div class="sensor">
+				   		<img src="images/laserkeilain.jpg">
+				   		<h3>Laserkeilain</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				   	</div>
+				   	
+				   	<div class="sensor">
+				   		<img src="images/speedsensor.jpg">
+				   		<h3>Nopeusmittari</h3>
+				   		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam imperdiet scelerisque diam vitae sagittis. Aenean lectus enim, rutrum vitae enim nec, gravida tincidunt enim. Phasellus viverra tristique erat nec condimentum. Donec ligula diam, iaculis id nisl et, tincidunt bibendum risus. Aliquam ut ipsum erat. Fusce vel nibh aliquam, efficitur risus gravida, tincidunt mauris. Aliquam vel dolor posuere, maximus leo a, dapibus metus. Donec tempor, libero ac tristique pulvinar, massa arcu fermentum sapien, at porta libero augue eget est. Proin ac tellus luctus, facilisis justo quis, volutpat ex. Nam volutpat dui in varius ultricies. Vivamus rutrum gravida sagittis. Mauris quis dui quis libero imperdiet volutpat id in est. Praesent hendrerit, velit ut consectetur tempor, urna arcu iaculis ex, et interdum mauris tellus sed massa. Praesent pulvinar est magna, at vestibulum enim laoreet at. Vestibulum ut malesuada mauris. In hac habitasse platea dictumst.</p>
+				  	</div>
 				  </div>
 				</div>
 			</div>

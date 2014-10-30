@@ -85,11 +85,13 @@ nav ul li{
 /*__________________________*/
 /* Kopterit ja sensorit */
 #copters-and-sensors img{
-	width: 50%;
 	display: block;
 	margin: 0 auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+}
+#copter-img{
+	width: 50%;
+	margin-top: 50px !important;
+	margin-bottom: 50px !important;
 }
 #tab-wrapper a{
 	font-size: 18px;
@@ -104,9 +106,25 @@ nav ul li{
 #tab-wrapper li.active a{
 	color: #333;
 }
-#kamerat img{
-	width: 150px;
+#tab-wrapper img{
+	height: 100px;
 }
+#tab-wrapper h3{
+	font-weight: 700;
+}
+.sensor, .camera, .copter-info{
+	padding: 20px;
+	width: 50%;
+	float: left;
+	min-height: 500px;
+}
+.copter-info{
+	min-height: 400px;
+}
+.sensor img{
+
+}
+
 /*__________________________*/
 
 
