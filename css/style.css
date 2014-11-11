@@ -76,6 +76,10 @@ nav ul li{
 	margin-top: 30px;
 	margin-bottom: 50px;
 }
+#demo-video video{
+	width: 100% !important;
+	height: auto;
+}
 /*__________________________*/
 
 

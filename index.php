@@ -26,7 +26,11 @@
 		<div id="birdview" class="col-xs-12 col-sm-8 col-sm-offset-2 content-section">
 			
 			<div id="demo-video">
-				<iframe width="660" height="415" src="//www.youtube.com/embed/OPzVzJFq0ZQ" frameborder="0" allowfullscreen></iframe>
+				<!--<iframe width="660" height="415" src="//www.youtube.com/embed/OPzVzJFq0ZQ" frameborder="0" allowfullscreen></iframe>-->
+				<video width="1920" height="1080" controls preload="none" poster="images/video_poster.jpg">
+					<source src="videos/Birdview_small.mp4" type="video/mp4">
+					Your browser doesnt support HTML5 video tag.
+				</video>
 			</div>
 			
 			<h1>Birdview tuo ilmakuvaamisen urheilun maailmaan!</h1>
